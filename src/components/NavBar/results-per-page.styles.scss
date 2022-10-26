@@ -1,0 +1,54 @@
+@import '../../utilities/variables';
+
+.results-per-page__dropdown__button {
+  width: 200px;
+  background-color: white;
+  border: 1px solid $gray;
+  box-shadow: 0 2px 3px $gray;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 7px;
+  cursor: pointer;
+  position: relative;
+
+  span {
+    color: $gray;
+    padding: 3px 7px;
+    font-size: 12px;
+  }
+}
+
+.results-per-page__dropdown-container {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  position: absolute;
+  width: 200px;
+  background-color: white;
+  border: 1px solid $gray;
+  box-shadow: 0 2px 3px $gray;
+  font-size: 12px;
+  padding: 5px 0 5px 10px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  cursor: pointer;
+
+  button {
+    padding: 3px 5px;
+    font-size: 12px;
+    background-color: white;
+    border: none;
+    font-size: 12px;
+    text-align: left;
+    cursor: pointer;
+    color: black;
+  }
+
+  button:hover {
+    text-decoration: underline;
+  }
+
+  .results-per-page__active {
+    color: $gray;
+  }
+}

@@ -1,0 +1,59 @@
+@import '../../utilities/variables';
+
+.pokemon-page {
+  margin: 20px auto;
+  width: 1000px;;
+}
+
+.pokemon-page__heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pokemon-page__heading-side-box {
+  width: 200px;
+}
+.pokemon-page__button-back {
+
+  word-spacing: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 30px;
+  background-color: $blue;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  color: white;
+  position: relative;
+  top: 0;
+  transition: top ease 0.3s;
+  margin-top: 10px;
+}
+
+.pokemon-page__button-back:hover {
+  background-color: white;
+  color: $blue;
+  text-decoration: underline;
+  border: 1px solid $blue;
+  padding: 7px 29px;
+  top: -1px;
+}
+
+.pokemon-page__main-img {
+  background-color: $blue;
+  width: 400px;
+  border-radius: 15px;
+}
+
+.pokemon-page__title {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.pokemon-page__pokemon-main-properties {
+  text-align: center;
+  span {
+    margin: 0 10px;
+  }
+}

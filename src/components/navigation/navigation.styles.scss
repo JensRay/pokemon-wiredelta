@@ -1,0 +1,29 @@
+@import '../../utilities/variables';
+
+.navigation-container {
+  box-shadow: 0 2px 3px $gray;
+}
+
+.navigation-bar {
+  height: 100px;
+  display: flex;
+  width: 70vw;
+  margin: 0 auto;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly
+}
+
+@media only screen and (min-width: 600px) {
+  .navigation-bar {
+    justify-content: flex-start;
+    flex-direction: row;
+    height: 50px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .navigation-bar {
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,41 @@
+@import '../../utilities/variables';
+
+.pokemon-page__properties-dropdowns {
+  margin-top: 20px;
+}
+
+.properties-dropdown {
+  width: 998px;
+}
+
+.properties-dropdown__button {
+  width: 100%;
+  background-color: white;
+  border: 1px solid $gray;
+  box-shadow: 0 2px 3px $gray;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 7px;
+  cursor: pointer;
+
+  span {
+    color: $blue;
+    padding: 3px 7px;
+    margin: 5px;
+  }
+}
+
+.properties-dropdown__container {
+  width: 100%;
+  background-color: white;
+  border: 1px solid $gray;
+  box-shadow: 0 2px 3px $gray;
+  font-size: 12px;
+  padding: 5px 0 5px 10px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  cursor: pointer;
+  li {
+    padding: 5px;
+  }
+}

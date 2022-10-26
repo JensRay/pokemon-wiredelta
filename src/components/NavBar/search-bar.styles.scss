@@ -1,0 +1,48 @@
+@import '../../utilities/variables';
+
+.search-bar__box {
+    position: relative;
+
+  .gg-search {
+    position: absolute;
+    top: 11px;
+    left: 10px;
+    color: $blue;
+  }
+
+  input {
+    height: 30px;
+    width: 400px;
+    border: 1px solid $gray;
+    border-radius: 10px;
+    text-indent: 30px;
+    width: 200px;
+  }
+}
+
+.sorting {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .search-bar {
+    margin-left: 60px;
+
+    .search-bar__box {
+      input {
+        width: 400px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .search-bar {
+    margin-left: 120px;
+
+    .search-bar__box {
+      input {
+        width: 400px;
+      }
+    }
+  }
+}

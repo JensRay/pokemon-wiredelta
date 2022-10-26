@@ -1,0 +1,72 @@
+@import '../../utilities/variables';
+
+.pokemon-card__container {
+  padding: 18px;
+  height: 400px;
+  width: 200px;
+  box-shadow: 0px 0px 3px $gray;
+  border-radius: 10px;
+}
+
+.pokemon-card__img {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $blue;
+  img {
+    height: 80%;
+  }
+}
+
+.pokemon-card__title {
+  padding: 15px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.pokemon-card__properties {
+  height: 110px;
+}
+
+.pokemon-card__property{
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  > span:first-of-type {
+    font-weight: 600;
+  }
+}
+
+.pokemon-card__abilities {
+  span {
+    display: block;
+    text-align: end;
+    font-weight: 300;
+  }
+}
+
+.pokemon-card__details-link {
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+
+    div {
+      border-top: 1px solid $gray;
+      color: $blue;
+      padding-top: 10px;
+    }
+
+    div:hover {
+      text-decoration: underline;
+    }
+}
+
+.pokemon-card__details-link:visited {
+  color: $blue;
+}

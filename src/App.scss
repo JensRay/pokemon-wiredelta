@@ -1,0 +1,13 @@
+@import './utilities/variables';
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  color: $brown;
+  box-sizing: content-box;
+}
+
+.App {
+  text-align: center;
+}
